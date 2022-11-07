@@ -13,7 +13,7 @@ const client_id = "ed4cfc1a-48d1-11ed-9721-8fed3ea79b2a";
 
 var methods = {
     getRefresh_JWT: function() {
-        var private_key = fs.readFileSync("C:\\Users\\chess\\Documents\\Important\\Programming Skills\\ReactJS\\application1\\server\\zube_api_key.pem");
+        var private_key = fs.readFileSync("C:\Users\Alex\Documents\GitHub\Backend\server\zube_api_key.pem");
 
         var now = Math.floor(Date.now() / 1000);
         var refresh_jwt = jsonwebtoken.sign({
