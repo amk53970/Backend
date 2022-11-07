@@ -13,7 +13,7 @@ const cors = require('cors');
 // Other global variables
 const PORT = process.env.PORT || 3001;
 const app = express();
-const client_id = "e931c1d4-434e-11ed-980d-df355d201f91";
+const client_id = "ed4cfc1a-48d1-11ed-9721-8fed3ea79b2a";
 
 
 // App modification statements
