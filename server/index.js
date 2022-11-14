@@ -49,8 +49,6 @@ app.get("/access_jwt", (req, res) => { // localhost:3001/access_jwt
 
     function callback(error, response, body) {
         if (!error && response.statusCode == 200) {
-            // console.log("token");
-            // console.log(body);
             data = JSON.parse(body);
             token = data.access_token;
             console.log(token);
